@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Article</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <img src="otr/gdn1.jpg" height="60px" alt="logo" id="logo">
+        <nav>
+            <div class="container">
+                <div class="item item-1"><a href="index.html"  style="color:rgb(245, 245, 245) ;">Home</a> </div>
+                <div class="item item-2"><a href="article.html">Article</a> </div>
+                <div class="item item-3"><a href="portofolio.html"  style="color:rgb(245, 245, 245) ;">Portofolio</a> </div>
+                <div class="item item-4"><a href="about.html"  style="color:rgb(245, 245, 245) ;">About</a></div>
+            </div>
+        </nav>
+    </header>
+
+    <div class="artikel">
+        <h1 class="domp"">Apa itu DOM API?</h1>
+
+        <p >DOM merupakan singkatan dari Document Object Model. <br>
+            Artinya, dokumen (HTML) yang dimodelkan dalam sebuah objek. <br>
+            Objek dari dokumen ini menyediakan sekumpulan fungsi dan atribut/data yang bisa kita manfaatkan dalam membuat program Javascript. Inilah yang disebut API (Application Programming Interface).
+        </p>
+
+        <h2 class="domp">Bagaimana Cara Menggunakan DOM?</h2>
+
+        <p>
+            Seperti yang kita sudah katahui, DOM adalah sebuah objek untuk memodelkan dokumen HTML. <br>
+            Objek DOM di javascript bernama document. Objek ini berisi segala hal yang kita butuhkan untuk memanipulasi HTML. <br>
+            Jika kita coba ketik document pada console Javascript, maka yang akan tampil adalah kode HTML.
+        </p>
+        
+        <p>
+            Di dalam objek document, terdapat fungsi-fungsi dan atribut yang bisa kita gunakan untuk memanipulasi dokumen HTML. Sebagai contoh fungsi documen.write(). <br> 
+            Fungsi ini digunakan untuk menulis sesuatu ke dokumen HTML. <br>
+            Contoh:
+            Coba ketik kode berikut di dalam consoel Javascript. <br><br>
+        </p>
+
+        <img src="otr/code 1.jpg" alt="code1">
+
+        <h2 class="domp">Mengkases Elemen Tertentu dengan DOM</h2>
+
+        <p>Objek document adalah model dari dokumen HTML. Objek ini berisi kumpulan fungsi dan atribut berupa objek dari elemen HTML yang bisa digambarkan dalam bentuk pohon seperti ini: <br><br></p>
+
+        <img src="otr/pohon-html.png" alt="code2">
+
+        <p>
+            Apabila kita ingin mengakses elemen yang spesifik, terdapat beberapa fungsi yang bisa digunakan: <br><br>
+            getElementById() fungsi untuk memilih elemen berdasarkan atribut id. <br><br>
+            getElementByName() fungsi untuk memilih elemen berdasarkan atribut name. <br><br>
+            getElementByClassName() fungsi untuk memilih elemen berdasarkan atribut class. <br><br>
+            getElementByTagName() fungsi untuk memilih elemen berdasarkan nama tag. <br><br>
+            getElementByTagNameNS() fungsi untuk memilih elemen berdasarkan nama tag. <br><br>
+            querySelector() fungsi untuk memilih elemen berdasarkan query. <br><br>
+            querySelectorAll() fungsi untuk memilih elemen berdasarkan query. <br><br>
+            dan lain-lain.  
+        </p>
+    </div>
+    
+
+</body>
+</html>
